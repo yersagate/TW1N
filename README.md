@@ -1,9 +1,9 @@
 # TW1N
 
-**TW1N** is a private, local-first AI assistant with document RAG, voice input, speech output, Tor integration, security monitoring, encrypted logs, audit trail, and 2FA.
+**TW1N** is a cross-platform, private, local-first AI assistant with document RAG, voice input, speech output, Tor integration, security monitoring, encrypted logs, audit trail, and 2FA.
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
@@ -30,6 +30,24 @@
 
 ## Quick start
 
+### Windows
+
+```powershell
+git clone [https://github.com/YOUR_USERNAME/TW1N.git](https://github.com/YOUR_USERNAME/TW1N.git)
+cd TW1N
+
+python -m venv .venv
+.venv\Scripts\activate
+
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+setx GROQ_API_KEY "your_groq_api_key"
+python app.py
+```
+
+### macOS / Linux
+
 ```bash
 git clone [https://github.com/YOUR_USERNAME/TW1N.git](https://github.com/YOUR_USERNAME/TW1N.git)
 cd TW1N
@@ -55,6 +73,8 @@ TW1N can route supported requests through a local Tor SOCKS proxy.
 
 For ControlPort features such as IP rotation and circuit diagnostics, enable Tor ControlPort and SAFECOOKIE authentication.
 
+Tor Browser is available for Windows, macOS, and Linux.
+
 ## Security
 
 TW1N includes:
@@ -72,7 +92,7 @@ TW1N includes:
 ## Requirements
 
 - Python 3.10+
-- macOS recommended
+- Windows, macOS, or Linux
 - Tor Browser, optional
 - Groq API key
 
