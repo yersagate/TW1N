@@ -1,10 +1,11 @@
-# TW1N — Private AI Assistant
+# TW1N
 
 **TW1N** is a private, local-first AI assistant with document RAG, voice input, speech output, Tor integration, security monitoring, encrypted logs, audit trail, and 2FA.
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
 ## Features
 
