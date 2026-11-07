@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+
+# TW1N private data
+tw1n_chat.json
+tw1n_security.log
+tw1n_audit.log
+*.log
+logs/
+exports/
+backups/
+
+# Tor authentication files
+*control_auth_cookie*
+*control.authcookie*
+*control_auth_cookie.tmp
+*control.authcookie.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Archives and documents
+*.zip
+*.rar
+*.7z
+*.pdf
+*.docx
+*.xlsx
