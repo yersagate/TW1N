@@ -33,7 +33,7 @@
 ### Windows
 
 ```powershell
-git clone [https://github.com/YOUR_USERNAME/TW1N.git](https://github.com/YOUR_USERNAME/TW1N.git)
+git clone [https://github.com/yersagate/TW1N.git](https://github.com/yersagate/TW1N.git)
 cd TW1N
 
 python -m venv .venv
@@ -49,7 +49,7 @@ python app.py
 ### macOS / Linux
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/TW1N.git](https://github.com/YOUR_USERNAME/TW1N.git)
+git clone [https://github.com/yersagate/TW1N.git](https://github.com/yersagate/TW1N.git)
 cd TW1N
 
 python3 -m venv .venv
